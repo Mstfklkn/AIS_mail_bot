@@ -1,6 +1,6 @@
 Merhabalar,
 
-Ben Mustafa Kalkan, Bahçeşehir Üniversitesi Artificial Intelligence Society (AIS) Yapay Zeka Kulübü komite üyesiyim. Kulübümüz adına sizlere ulaşmaktan memnuniyet duyuyorum.
+Ben {{sender_name}}, Bahçeşehir Üniversitesi Artificial Intelligence Society (AIS) Yapay Zeka Kulübü komite üyesiyim. Kulübümüz adına sizlere ulaşmaktan memnuniyet duyuyorum.
 
 AIS olarak bugüne kadar üniversitemiz bünyesinde ve farklı şehirlerde düzenlediğimiz yapay zeka zirveleri, kongreler ve teknik etkinlikler ile mühendislik öğrencilerini, akademisyenleri ve sektör profesyonellerini bir araya getirdik. Gerçekleştirdiğimiz organizasyonlarda Türkiye'nin önde gelen teknoloji firmaları ve kurumları ile iş birlikleri geliştirdik.
 
