@@ -1,0 +1,8 @@
+{{ sender_name }}
+{{ sender_title }}
+Bahçeşehir Üniversitesi Artificial Intelligence Society (AIS)
+{% if sender_phone %}No: {{ sender_phone }}{% endif %}
+{% if sender_email %}E-mail: {{ sender_email }}{% endif %}
+{% if sender_linkedin %}LinkedIn: {% if sender_linkedin_label %}{{ sender_linkedin_label }}{% else %}{{ sender_linkedin }}{% endif %}{% endif %}
+{% if sender_website %}Sosyal medya: {% if sender_social_media_label %}{{ sender_social_media_label }}{% else %}{{ sender_website }}{% endif %}{% endif %}
+{% if sender_address %}Adres: {{ sender_address }}{% endif %}

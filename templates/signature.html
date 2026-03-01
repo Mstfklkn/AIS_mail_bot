@@ -1,0 +1,33 @@
+<div style="margin-top: 24px; padding-top: 16px; border-top: 1px solid #eee; font-family: Arial, sans-serif; font-size: 13px; color: #333; overflow: visible;">
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; font-size: 13px;">
+<tr>
+<td style="vertical-align: top; padding-right: 16px; width: 80px;">
+{% if sender_logo_url %}
+<img src="{{ sender_logo_url }}" alt="AIS" width="80" height="80" style="display: block;" />
+{% else %}
+&nbsp;
+{% endif %}
+</td>
+<td style="vertical-align: top; border-left: 4px solid #2563eb; padding-left: 16px;">
+<div style="color: #2563eb; font-weight: bold; font-size: 14px; margin-bottom: 4px;">{{ sender_name }}</div>
+<div style="margin-bottom: 2px; color: #333;">{{ sender_title }}</div>
+<div style="margin-bottom: 8px; color: #333;">Bahçeşehir Üniversitesi Artificial Intelligence Society (AIS)</div>
+{% if sender_phone %}
+<div style="margin-bottom: 2px;"><span style="color: #2563eb;">No:</span> <span style="color: #2563eb;">{{ sender_phone }}</span></div>
+{% endif %}
+{% if sender_email %}
+<div style="margin-bottom: 2px;"><span style="color: #2563eb;">E-mail:</span> <a href="mailto:{{ sender_email }}" style="color: #2563eb; text-decoration: underline;">{{ sender_email }}</a></div>
+{% endif %}
+{% if sender_linkedin %}
+<div style="margin-bottom: 2px;"><span style="color: #2563eb;">LinkedIn:</span> <a href="{{ sender_linkedin }}" style="color: #2563eb; text-decoration: underline;">{% if sender_linkedin_label %}{{ sender_linkedin_label }}{% else %}{{ sender_linkedin }}{% endif %}</a></div>
+{% endif %}
+{% if sender_website %}
+<div style="margin-bottom: 2px;"><span style="color: #2563eb;">Sosyal medya:</span> <a href="{{ sender_website }}" style="color: #2563eb; text-decoration: underline;">{% if sender_social_media_label %}{{ sender_social_media_label }}{% else %}{{ sender_website }}{% endif %}</a></div>
+{% endif %}
+{% if sender_address %}
+<div style="margin-bottom: 2px;"><span style="color: #2563eb;">Adres:</span> <span style="color: #333;">{{ sender_address }}</span></div>
+{% endif %}
+</td>
+</tr>
+</table>
+</div>

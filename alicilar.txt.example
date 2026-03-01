@@ -1,0 +1,9 @@
+# Alıcı listesi - her satır: email/kişi_adı/şirket
+# Örnek: ali@example.com/Ali Yılmaz/Acme Corp
+# Boş satırlar ve # ile başlayanlar yok sayılır
+#
+# Kurulum: Bu dosyayı alicilar.txt olarak kopyalayın ve doldurun
+# cp alicilar.txt.example alicilar.txt
+
+ornek@firma.com/Ahmet Yılmaz/Örnek Şirket
+diger@firma.com/Mehmet Demir/Başka Firma
