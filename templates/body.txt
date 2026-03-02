@@ -12,9 +12,9 @@ Bu yıl söz konusu çalışmalarımızın devamı niteliğinde, AI Revolution 3
   • Öğrenciler ve genç profesyonellere yönelik uygulamalı workshop'lar
   • Şirketler ile katılımcıları bir araya getiren networking ve fuaye alanları
 
-{{ company }}'nin teknoloji ve inovasyon alanındaki vizyonu ile etkinliğimizin hedeflerinin örtüştüğünü düşünüyoruz. Sizleri bu organizasyonda sponsorumuz ve kurumsal iş ortağımız olarak görmekten memnuniyet duyacağız.
+{{ company }} firmasının teknoloji ve inovasyon alanındaki vizyonu ile etkinliğimizin hedeflerinin örtüştüğünü düşünüyoruz. Sizleri bu organizasyonda sponsorumuz ve kurumsal iş ortağımız olarak görmekten memnuniyet duyacağız.
 
-Sponsorluk kapsamında; marka görünürlüğü, konuşmacı katılımı, stand alanı, social media ve dijital içeriklerde konumlandırma gibi farklı iş birliği modelleri sunmaktayız. Talep etmeniz hâlinde sponsorluk dosyamızı ve detaylı etkinlik sunumumuzu memnuniyetle iletebiliriz.
+Sponsorluk kapsamında; marka görünürlüğü, konuşmacı katılımı, stand alanı, social media ve dijital içeriklerde konumlandırma gibi farklı iş birliği modelleri sunmaktayız. Mail ekinde sponsorluk paketlerimizi bulabilirsiniz.{% if vizyon_canva_link %} AIS vizyon sunumumuza buradan ulaşabilirsiniz: {{ vizyon_canva_link }}{% endif %}
 
 Uygun olduğunuz bir tarihte online veya yüz yüze bir görüşme gerçekleştirerek iş birliği detaylarını paylaşmak isteriz.
 

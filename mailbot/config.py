@@ -146,6 +146,11 @@ def get_sender_title() -> str:
     return (os.getenv("SENDER_TITLE") or "Komite Üyesi").strip()
 
 
+def get_vizyon_canva_link() -> str:
+    """AIS vizyon sunumu Canva linki - .env VIZYON_CANVA_LINK."""
+    return (os.getenv("VIZYON_CANVA_LINK") or "").strip()
+
+
 def get_sender_logo_url() -> str:
     """İmza logosu - .env SENDER_LOGO_URL. Harici URL kullanın (base64 e-posta istemcilerinde sorun çıkarır)."""
     return (os.getenv("SENDER_LOGO_URL") or "").strip()

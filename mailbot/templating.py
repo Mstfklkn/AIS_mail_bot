@@ -15,6 +15,7 @@ from .config import (
     get_sender_address,
     get_sender_title,
     get_sender_logo_url,
+    get_vizyon_canva_link,
 )
 from .models import Recipient
 from .exceptions import TemplateError
@@ -45,6 +46,7 @@ def build_message(recipient: Recipient, paths: dict) -> tuple[str, str, str | No
             "sender_address": get_sender_address(),
             "sender_title": get_sender_title(),
             "sender_logo_url": get_sender_logo_url(),
+            "vizyon_canva_link": get_vizyon_canva_link(),
         }
 
         subject = env.get_template("subject.txt").render(**context)
