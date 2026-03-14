@@ -14,8 +14,7 @@ Bu yıl söz konusu çalışmalarımızın devamı niteliğinde, AI Revolution 3
 
 {{ company }} firmasının teknoloji ve inovasyon alanındaki vizyonu ile etkinliğimizin hedeflerinin örtüştüğünü düşünüyoruz. Sizleri bu organizasyonda sponsorumuz ve kurumsal iş ortağımız olarak görmekten memnuniyet duyacağız.
 
-Sponsorluk kapsamında; marka görünürlüğü, konuşmacı katılımı, stand alanı, social media ve dijital içeriklerde konumlandırma gibi farklı iş birliği modelleri sunmaktayız. Mail ekinde sponsorluk paketlerimizi bulabilirsiniz.{% if vizyon_canva_link %} AIS vizyon sunumumuza buradan ulaşabilirsiniz: {{ vizyon_canva_link }}{% endif %}
-
+Sponsorluk kapsamında; marka görünürlüğü, konuşmacı katılımı, stand alanı, social media ve dijital içeriklerde konumlandırma gibi farklı iş birliği modelleri sunmaktayız. Mail ekinde sponsorluk paketlerimizi bulabilirsiniz. AIS vizyon sunumumuza eklerden ulaşabilirsiniz: 
 Uygun olduğunuz bir tarihte online veya yüz yüze bir görüşme gerçekleştirerek iş birliği detaylarını paylaşmak isteriz.
 
 
