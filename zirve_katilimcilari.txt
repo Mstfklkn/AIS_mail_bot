@@ -1,0 +1,491 @@
+# Zirve katılımcı listesi - her satır: email/kişi_adı/bölüm
+# Format: email/Ad Soyad/Bölüm
+# Boş satırlar ve # ile başlayanlar yok sayılır
+#
+# Bu dosyayı doldurmak için:
+#   python -m mailbot import-zirve <tsv_dosyasi>
+# veya elle ekle:
+#   kadyrhan.khudaynazar@bahcesehir.edu.tr/Kadyrhan Khudaynazar/Bilgisayar Mühendisliği
+#
+
+# AIS YAPAY ZEKA KULÜBÜ ÜYE KAYIT FORMU (Yanıtlar) - Form Yanıtları 1.tsv dosyasından içe aktarıldı
+kadyrhan.khudaynazar@bahcesehir.edu.tr/Kadyrhan Khudaynazar/Bilgisayar mühendisliği
+cem.asildogan@bahcesehir.edu.tr/Cem Suay Asildoğan/Endüstri Mühendisliği
+cuneyt.sezer@bahcesehir.edu.tr/Cüneyt Tuluğhan Sezer/Yazılım Mühendisliği
+annaohlsen8@gmail.com/Anna Ohlsen/BA
+khalil.sabieddine@bahcesehir.edu.tr/Khalil sabieddine/Engineering
+erdem.yildirim1@bahcesehir.edu.tr/Erdem Yıldırım/Yapay zeka mühendisliği
+arman.anzari@bahcesehir.edu.tr/Arman Anzari/Business administration
+kaan.sozen@bahcesehir.edu.tr/Kaan Sözen/Endüstri mühendisliği
+salih.kaya@bahcesehir.edu.tr/Salih Kaya/Yapay Zeka
+ardanedim.inan@bahcesehir.edu.tr/Arda Nedim İnan/Bilgisayar Mühendisliği
+umut.mollaoglu@bahcesehir.edu.tr/umut mollaoğlu/mekatronik müh
+volkan.gultekin@bahcesehir.edu.tr/Volkan Gültekin/insaat muhendisligi
+faruk.tekin@bahcesehir.edu.tr/Faruk Tekin/BAU
+elif.ciftbudak@bahcesehir.edu.tr/elif çiftbudak/bilgi güvenliği teknolojisi
+can.azizoglu@bahcesehir.edu.tr/Can AZİZOĞLU/Mekatronik Mühendisliği
+emre.sahin4@bahcesehir.edu.te/emre şahin/mekatronik mühendisliği
+remzi.poyrazoglu@bahcesehir.edu.tr/Remzi Atasagun Poyrazoğlu/Bilgisayar Mühendisliği
+emirtunahan.alim@bahcesehir.edu.tr/Emir Tunahan Alim/Yazılım mühendisliği
+enis.turksoz@bahcesehir.edu.tr/Enis Türksöz/Yazılım Mühendisliği
+ahmet.aydin@bahcesehir.edu.tr/Ahmet Aydın/Bilgi Güvenliği Teknolojisi
+huseyinardic.bahar@bahcesehir.edu.tr/Hüseyin Ardıç Bahar/Mekatronik mühendisliği
+ece.mert@bahcesehir.edu.tr/Ece Mert/Yapay zeka mühendisliği
+yusuf.tezer@bahcesehir.edu.tr/YUSUF EFE TEZER/Endüstri
+zeynep.albayrak@bahcesehir.edu.tr/Zeynep albayrak/Cmpe
+ilayda.baburoglu@bahcesehir.edu.tr/İlayda Babüroğlu/Endüstri Mühendisliği
+tareqiyadmohammedakr@bahcesehir.edu.tr/Tareq shwaika/BAU
+yousef.salama@bahcesehir.edu.tr/Yousef salama/BAU
+ozan.aktas@bahcesehir.edu.tr/Ozan Aktaş/Yazılım mühendisliği
+yusufsalih.demirbas@bahcesehir.edu.tr/Yusuf Salih Demirbaş/BAU
+ahmetalperen.inci@bahcesehir.edu.tr/Ahmet Alperen İnci/Yapay Zeka
+mustafa.kalkan@bahcesehir.edu.tr/Mustafa Kalkan/Mekatronik mühendisliği
+nacigokhan.basaran@bahcesehir.edu.tr/Naci Gökhan Başaran/Elektrik Elekteonik Muhendisligi
+serdaerdem.agin@bahcesehir.edu.tr/Serhad Erdem Agin/Mechatronic Engineering
+ayli.sadeghi@bahcesehir.edu.tr/Ayli Sadeghi/BAU
+koray.silitalay@bahcesehir.edu.tr/Koray Silitalay/Mekatronik mühendisliği
+husna.ocmaz@bahcesehir.edu.tr/Husna Öçmaz/BAU
+ada.ergen@bahcesehir.edu.tr/Ada Ergen/BAU
+allahveran.ismayilov@bahcesehir.edu.tr/Allahveran İsmayılov/Aİ Engineering
+cagindeha.erhan@bahcesehir.edu.tr/Çağın Deha Erhan/Yazılım müh
+zeynep.ceylan4@bahcesehir.edu.tr/Zeynep Ceylan/BAU
+ayla.karayigit@bahcesehir.edu.tr/Ayla catherine Karayiğit/Yapay zeka mühendisliği
+zeren.korkmaz@bahcesehir.edu.tr/Zeren Korkmaz/..
+alperen.kirca@bahcesehir.edu.tr/Alperen kırca/Yazılım mühendisliği
+talyamorgul@hotmail.com/Talya Morgül/Moleküler biyoloji ve genetik
+bardia.zenouzi@bahcesehir.edu.tr/Bardia Shakeri Zenouzi/Software engineering
+leyla.yurtdas@bahcesehir.edu.tr/leyla yurtdaş/biyomedikal
+tolgagulel2004@gmail.com/Tolga Gülel/BAU
+guneyarjenince@gmail.com/Güney Arjen İnce/Ekonomi
+mohanned.bennbaya@bahcesehir.edu.tr/Mohaned bennbaya/Management engineering
+affanbera.donmez@bahcesehir.edu.tr/Affan Bera Dönmez/Işletme Mühendisliği
+sahan.havlici@bahcesehir.edu.tr/Şahan Havlici/FTR
+ozge.odabas@bahcesehir.edu.tr/Özge odabaş/Yazılım mühendisliği
+cihanemir.tungur@bahcesehir.edu.tr/Cihan Emir Tüngür/Yazılım mühendisliği
+orkanemre.kucukakau@bahcesehir.edu.tr/Orkan Küçükaksu/Tıp
+nehir.aktas@bahcesehir.edu.tr/Nehir Aktaş/yapay zeka öğrencisiyim
+berenirmak.unal@bahcesehir.edu.tr/Beren Irmak Ünal/yapay zeka mühendisliği öğrencisiyim.
+naz.mumcuoglu@bahcesehir.edu.tr/Naz Mumcuoğlu/yazılım mühendisliği
+madina.iunusova@bahcesehir.edu.tr/Madina Iunusova/PR and Publicity
+okyanus.im@bahcesehir.edu.tr/Okyanus im/Elektrik elektronik mühendisliği
+elif.efendioglu@bahcesehir.edu.te/Elif Efendioglu/BAU
+ceylin.guven@bahcesehir.edu.tr/Ceylin Güven/Bilgi Güvenliği Teknolojisi
+efe.ayanoglu@bahcesehir.edu.tr/Efe Kaan Ayanoğlu/Dijital oyun tasarımı
+kerem.yildiz3@bahcesehir.edu.tr/Kerem Yıldız/Mekatronik mühendisliği
+omerfaruk.kotan@bahcesehir.edu.tr/Ömer Faruk KOTAN/Ai
+ege.donmez@bahcesehir.edu.tr/Ege Dönmez/Bilgisayar Mühendisliği
+eylul.ozdemir1@bahcesehir.edu.tr/Eylül Sena Özdemir/Eczacılık
+ceylin.gedikoglu@bahcesehir.edu.tr/Ceylin Gedikoğlu/İşletme mühendisliği
+selin.tuna@bahcesehir.edu.tr/Selin Tuna/Mekatronik mühendisliği
+yusuf.urker@bahcesehir.edu.tr/Yusuf Ürker/psikoloji
+abdullahenfalsalli@bahcesehir.edu.tr/Abdullah Enfal Şallı/Mekatronik
+sevde.celik@bahcesehir.edu.tr/Sevde Çelik/İşletme Mühendisliği
+ummuelif.ozgiden@bahcesehir.edu.tr/Elif Özgiden/Yazılım Mühendisliği
+matin.rahimi@bahcesehir.edu.tr/Matin Rahimi/Bilgisayar mühendisliği
+aliboran.sen@bahcesehir.edu.tr/Ali Boran Şen/Sinema ve Televizyon
+mehmet.kulekci@bahcesehir.edu.tr/Mehmet Atahan Külekçi/yazılım mühendisliği
+bugrahan.korkmaz@bahcesehir.edu.tr/Buğrahan Korkmaz/Yazılım mühendisliği
+zesuysal@gmail.com/Zeynep Sude uysal/İşletme mühendisliği
+nehir.pekdemir@bahcesehir.edu.tr/nehir pekdemir/yapay zeka mühendisliği
+elifazra.karali@bahcesehir.edu.tr/Elif Azra Karalı/yapay zeka mühendisliği
+muhammetsait.ayaz@bahcesehir.edu.tr/Muhammet Sait Ayaz/BAU
+furkan.sevinc@bahcesehir.edu.tr/Furkan sevinç/BAU
+deniz.poyraz@bahcesehir.edu.tr/Deniz Poyraz/Enerji sistemleri mühendisliği
+parmida.mehri@bahcesehir.edu.tr/Parmida mehri/No
+kerem.ertekin@bahcesehir.edu.tr/Kerem Ertekin/yazilim muhendisligi
+mervan.ay@bahcesehir.edu.tr/Mervan Ay/Yazılım mühendisliği
+kerem.ozdemir1@bahcesehir.edu.tr/Kerem Özdemir/Yazılım Mühendisliği
+engin.akturk@bahcesehir.edu.tr/Engin Aktürk/Yazılım mühendisliği
+melike.kacar@bahcesehir.edu.tr/Melike Kaçar/İşletme Mühendisliği, Yapay zeka mühendisliği Çap
+mehmetvecdi.yalcin@bahcesehir.edu.tr/mehmet vecdi yalcin/yazilim muh
+mert.calik@bahcesehir.edu.tr/Mert Çalık/Mekatronik mühendisliği
+doga.elmas@bahcesehir.edu.tr/Doga elmas/Mekatronik
+hidayet.koc@bahcesehir.edu.tr/Alparslan Koç/Logistics Management
+sultan.ahmad@bahcesehir.edu.tr/Sultan Ahmad/Ai
+amirreza.aliabad@bahcesehir.edu.tr/Amirreza eslami/Artificial intelligence
+aleyna.dede@bahcesehir.edu.tr/Aleyna Dede/BAU
+hasan.doruel@bahcesehir.edu.tr/Hasan Doruel/Software Engineering
+enes.kurt@bahcesehir.edu.tr/Enes kurt/Comp eng
+helin.tas@bahcesehir.edu.tr/Helin Taş/Biyomedikal Muhendisligi
+ehsaullah.mahmood@bahcesehir.edu.tr/Ehsanullah Mahmood/AI engineering
+merthakan.tokgoz@bahcesehir.edu.tr/Mert Hakan Tokgöz/Yazılım Mühendisliği
+efdal.ibiloglu@bahcesehir.edu.tr/Efdal İbiloğlu/Yazılım Mühendisliği
+merveinci.safi@bahcesehir.edu.tr/Merve İnci Safi/İşletme Mühendisliği
+esattalha.karatas@bahcesehir.edu.tr/Esat Talha Karataş/BAU
+efenuri.kucuk@alumni.bau.edu.tr/Efe Nuri Küçük/Yapay Zeka Müh-Mezun
+syed.ahmed@bahcesehir.edu.tr/Syed Ryan Ahmed/BAU
+muhammetenescan.akin@bahcesehir.edu.tr/Enes Akın/Bilgisayar Mühendisliği
+murat.vural@bahcesehir.edu.tr/Murat Vural/Yazılım mühendisligi
+cinarguvencli@hotmail.com/Çınar Güvençli/Dijital oyun tasarımı
+ata.uzun@bahcesehir.edu.tr/Ata Uzun/Öyleyim
+kerem.aydos@bahcesehir.edu.tr/Kerem Aydos/Yazılım Mühendisliği
+baver.ercengiz@bahcesehir.edu.tr/Baver Ercengiz/Yazilim muhendisligi
+arda.deger@bahcesehir.edu.tr/Arda Değer/Mekatronik mühendisliği
+yigit.sen2@bahcesehir.edu.tr/Yiğit Efe Şen/ai
+arsan.somuncu@bahcesehir.edu.tr/Arsan Somuncu/Üstte yanıtlandı.
+zehra.sahbazoglu@bahcesehir.edu.tr/Zehra Şahbazoğlu/Yapay Zeka
+irem.yildiz2@bahcesehir.edu.tr/irem yıldız/yapay zeka mühendisliği
+melike.demirgubuz@bahcesehir.edu.tr/melike şevval demirgubuz/aı
+berke.diri@bahcesehir.edu.tr/Berke Diri/Dijital Oyun Tasarımı
+sahra.kiraz@bahcesehir.edu.tr/sahra kiraz/BAU
+iremsuna.avsar@bahcesehir.edu.tr/İrem Suna Avşar/Ai mühendisliği
+abdullahanil.ozhan@bahcesehir.edu.tr/Abdullah Anıl Özhan/Electrical Electronics Engineering
+charles.asura@bahcesehir.edu.tr/Charles Asura/Sinema ve televizyon
+mertseyid.aktas@bahcesehir.edu.tr/Mert seyid aktaş/İşletme mühendisliği
+gencer.durmusoglu@bahcesehir.edu.tr/Doruk Durmuşoğlu/Bilgisayar
+selcukbeyrek.gurbuz@bahcesehir.edu.tr/Selçuk Beyrek Gürbüz/Yapay Zeka
+bita.reyhaniniyat@bahcesehir.edu.tr/Bita reyhani niyat/International trade and business
+salah.althalathini@bahcesehir.edu.tr/Salah ALTHALATHINI/BAU
+helin.alp1@bahcesehir.edu.tr/Helin Alp/Bilgisayar mühendisliği
+can_aydin.1907@icloud.com/can aydın/yazılım müh
+oguz.yavuz@bahcesehir.edu.tr/Oğuz Yavuz/Bilgisayar Mühendisliği
+eren.unal1@bahcesehir.edu.tr/Eren Ünal/BAU
+mehmet.eyuboglu@bahcesehir.edu.tr/Mehmet Yiğit Eyüboğlu/Yapay zeka mühendisliği
+furkanriza.soylemez@bahcesehir.edu.tr/Furkan Rıza Söylemez/BAU
+efe.zarli@bahcesehir.edu.tr/Efe Zarlı/Mekatronik Muhendisligi
+muhammadammar.habib@bahcesehir.edu.tr/Muhammad Ammar Habib/Game design
+emirhan.gur@bahcesehir.edu.tr/Emirhan Gür/Bilgisayar Mühendisliği
+melihyigit.aygin@bahcesehir.edu.tr/Melih Yiğit Aygın/Yazılım Mühendisliği
+aybike.koklu@bahcesehir.edu.tr/Aybike Köklü/İşletme Mühendisliği
+yagizege.demirer@bahcesehir.edu.tr/yağız ege demirer/enerji sistemleri mühendisliği
+aysenur.cigerciogul1@bahcesehir.edu.tr/Ayşenur Ciğercioğulları/İşletme
+sercan.basmaciyan@bahcesehir.edu.tr/Sercan Basmacıyan/Bilgisayar Mühendisliği
+ahmetenes.bolgonul@bahcesehir.edu.tr/Ahmet Enes Bolgönül/Yazılım mühendisliği
+atakan.karakaya1@bahcesehir.edu.tr/Atakan Karakaya/Bilgisayar Mühendisliği
+demirnedim.altunay@bahcesehir.edu.tr/demir nedim altunay/öyleyi
+ceren.kutluk@bahcesehir.edu.tr/Ceren Kutluk/computer engineering
+edanur.gul@bahcesehir.edu.tr/Eda nur gül/Bilgisayar mühendisliği
+salah.karimeh@bahcesehir.edutr/Salah Karimeh/Mechatronics Engineering
+tolga.ergene@bahcesehir.edu.tr/Tolga Emir Ergene/Yazılım Mühendisliği
+besim.cakir@bahcesehir.edu.tr/Besim Batuhan çakır/Software engineering
+emre.kabadayi@bahcesehir.edu.tr/Emre Al Kabadayı/Software
+tugrul.furuncu@bahcesehir.edu.tr/Tuğrul Furuncu/Bilgisayar Mühendisliği
+yusuf.kaya3@bahcesehir.edu.tr/Yusuf Kaya/bilgisayar mühendisligi
+ayaztan.gultekin@bahcesehir.edu.tr/Ayaz Tan Gültekin/Bilgisayar Mühendisliği
+ahmet.oner@bahcesehir.edu.tr/Ahmet Arif Öner/CE
+yusuf.hassan@bahcesehir.edu.tr/Yusuf yasser/Artificial intelligence
+kaan.ozturk4@bahcesehir.edu.tr/Kaan Öztürk/Endüstri Mühendisliği
+emir.kicali@bahcesehir.edu.tr/Emir kıcalı/BAU
+envercan.aslan@bahcesehir.edu.tr/Envercan Aslan/Endüstri müh
+osmanhaktan.bas@bahcesehir.edu.tr/Osman Haktan Baş/bilgisayar mühendisliği
+ada.adaogullari@bahcesehir.edu.tr/ada deniz adaoğulları/hukuk
+muhammedemir.noyan@bahcesehir.edu.tr/Muhammed Emir Noyan/Hukuk
+vladimir.dria@bahcesehir.edu.tr/VLADIMIR DRIGOLA/Uluslararası Ticaret ve İşletmecilik
+efe.saracoglu@bahcesehir.edu.tr/Beşir Efe Saraçoğlu/YZ
+adem.dinar@bahcesehir.edu.tr/Dinar adem Belahouel Ouail/Department of engineering and natural sciences
+fatma.alp@bahcesehir.edu.tr/Sıla alp/Bilgisayar+endustri
+cem.aslanhan@bahcesehir.edu.tr/Cem aslanhan/Bilgi güvenliği ve teknolojisi
+ozer.aldemir@bahcesehir.edu.tr/Özer aldemir/Eczacılık
+mustafa.erenlercayi@gmail.com/Kerem Erenlerçayı/Mekatronik
+omeralp.ozdemir@bahcesehir.edu.tr/Ömer alp özdemir/Hukuk
+bertug.orman@bahcesehir.edu.tr/bertuğ orman/yok
+pouya.shaterzadeh@stu.fbu.edu.tr/Pouya Shaterzadeh/AI Engineering
+sasan.shafieimatana1@bahcesehir.edu.tr/Sasan shafi/Computer engineering
+ezginilsu.kiraz@bahcesehir.edu.tr/Ezgi Nilsu Kiraz/Yazılım mühendisliği
+talhacinar.hekim@bahcesehir.edu.tr/Talha Çınar Hekim/Yazılım mühendisliği
+ismaileray.temel@bahcesehir.edu.tr/İsmail Eray Temel/Endüstri Mühendisliği
+betulnur.uzan@bahcesehir.edu.tr/Betül Nur uzan/Bilgis
+berk.olcay@bahcesehir.edu.tr/Berk Olçay/Computer engineering
+levent.sarioglu@bahcesehir.edu.tr/Levent Sarıoğlu/Bilgisayar Mühendisliği
+emre.cete@bahcesehir.edu.tr/Emre Cete/İşletme
+aliefe.kaya@bahcesehir.edu.tr/Ali Efe Kaya/Elektrik-Elektronik Mühendisliği
+arda.tatli@bahcesehir.edu.tr/Arda Tatlı/işletme
+lenelies.vuletic1@bahcesehir.edu.tr/Lenelies Vuletiç/İletişim tasarımı
+berkay.yildiz1@bahcesehir.edu.tr/Berkay YILDIZ/Yazılım Mühendisliği
+ekintoprak.kurt@bahcesehir.edu.tr/Ekin toprak kurt/Yazılım
+babakrad.jahanbani@bahcesehir.edu.tr/Babak Rad Jahanbani/Computer Engineering
+ismailtaha.dag@bahcesehir.edu.tr/İsmail Taha Dağ/Biyomedikal Mühendisliği
+dogu.ozdogan@bahcesehir.edu.tr/Doğu Özdoğan/işletme
+afranur.camci@bahcesehir.edu.tr/Afra Nur Çamcı/İşletme
+tuna.akdogan@bahcesehir.edu.tr/Tuna Akdoğan/BAU
+aliayhan.kul@bahcesehir.edu.tr/Ali Ayhan Kul/İşletme mühendisliği
+arda.buyukkasap@bahcesehir.edu.tr/Arda Büyükkasap/İşletme Müh.
+kadir.aksu@bahcesehir.edu.tr/Kadir Aksu/BAU
+selin.orsel@bahcesehir.edu.tr/Selin örsel/Bilgisayar mühendisliği
+dogukan.ilhan@bahcesehir.edu.tr/Doğukan İlhan/Yazılım Mühendisliği
+beril.bekdemir@bahcesehir.edu.tr/Beril Bekdemir/ekonomi
+muhammedemre.erkol@bahcesehir.edu.tr/Muhammed Emre Erkol/Software Engineering
+bersun.ustuner@bahcesehir.edu.tr/Bersun Üstüner/BAU
+hacerceylin.gunduz@bahcesehir.edu.tr/Hacer Ceylin Gündüz/Yapayzeka Mühendisliği
+arman.aker@bahcesehir.edu.tr/Arman aker/Aı
+lamaran.balshi1@bahcesehir.edu.tr/Lamar Balshi/Ai
+havinyaz.yasar@bahcesehir.edu.tr/Havin Yaz Yaşar/ejdustri muh
+hila.paikan@bahcesehir.edu.tr/Hila Paikan/Bilgisayar mühendisliği
+reyhan.secgin@bahcesehir.edu.tr/Reyhan Seçgin/Bilgisayar Mühendisliği
+defne.tirelioglu@bahcesehir.edu.tr/defne tirelioglu/BAU
+yaman.bayraktar@bahcesehir.edu.tr/Yaman Bayraktar/İşletme
+kaan.elmas1@bahcesehir.edu.tr/kaan elmas/bilgisayar mühendisliği
+sevkiada.hasturk@bahcesehir.edu.tr/Şevki Ada Hastürk/Bilgisayar Mühendisliği
+cenk.erarslan@bahcesehir.edu.tr/Cenk Erarslan/endüstri mühendisliği
+amin.abouhaikel@bahcesehir.edu.tr/Amin Abou Haikel/Ai department
+bengisu.piskin@bahcesehir.edu.tr/Bengisu Pişkin/İşletme
+merve.sokmenci@bahcesehir.edu.tr/Merve Sökmenci/Biyomedikal mühendisliği
+fikriye.ustaoglu@bahcesehir.edu.tr/Fikriye Ilgın Ustaoğlu/yazılım mühendisliği
+utkuselim.decdeli@bahcesehir.edu.tr/Utku Selim Decdeli/Elektrik-Elektronik Mühendisliği
+hamdikerem.gultekin@bahcesehir.edu.tr/Hamdi Kerem Gültekin/Bilgisayar mühendisliği
+omercemil.cizmeci@bahcesehir.edu.tr/Ömer Cemil Çizmeci/Yazılım Mühendisliği
+sanberkkayaa@gmail.com/Sanberk kaya/Mechatronics
+irem.karayazi@bahcesehir.edu.tr/İrem karayazı/Mekatronik mühendisliği
+denizmeric.ozdemir@bahcesehir.edu.tr/Deniz Meriç Özdemir/Enerji Sistemleri Mühendisliği
+ebrar.ozkan1@bahcesehir.edu.tr/Ebrar Özkan/Yazılım mühendisi
+ebrar.ceyhan@bahcesehir.edu.tr/Ebrar Ceyhan/YZ
+can.kisacik@bahcesehir.edu.tr/Can Kısacık/Yapay Zeka Mühendisliği
+guldeniz.noyan@bahcesehir.edu.tr/gül deniz noyan/yazılım mühendisi
+arya.khosrowshahi1@bahcesehir.edu.tr/Arya Massahi Khosrowshahi/AI Engineering
+burak.gumussoy@bahcesehir.edu.tr/Burak Gümüşsoy/Mekatronik mühendisliği
+bora.ayvaz@bahcesehir.edu.tr/Bora Ayvaz/Mekaktronik Mühendisliği
+bilgehan.taskiran@bahcesehir.edu.tr/Bilgehan Taşkıran/Elektrik Elektronik
+gizemmerve.yildirim@bahcesehir.edu.tr/Gizem yıldırım/Bilgisayar Mühendisliği
+ertan.sahinoglu@bahcesehir.edu.tr/Ertan Yiğit şahinoğlu/Mekatronik müh.
+ece.orhan@bahcesehir.edu.tr/Ece Orhan/endustri muhendisligi
+koray.karadag@bahcesehir.edu.tr/Koray Karadag/Yazılım Mühendisliği
+demir.demirbilek1@bahcesehir.edu.tr/Demir Demirbilek/Bilgisayar Mühendisliği
+pelin.altun@bahcesehir.edu.tr/Pelin Altun/Elektrik Elektronik
+dilan.baskaptan@bahcesehir.edu.tr/dilan baskaptqn/Bilgisayar Muhendisligi
+raouf.alipour@bahcesehir.edu.tr/Raouf Alipour/Bilgisayar
+azra.alpaslan@bahcesehir.edu.tr/Azra Alpaslan/Yapay Zeka Mühendisliği
+ganime.godeoglu@bahcesehir.edu.tr/ganime gödeoğlu/BAU
+emirhan.tasli@bahcesehir.edu.tr/Emirhan Taslı/Yazılım mühendisliği
+eda.soydugan@bahcesehir.edu.tr/Eda Soydugan/Elektrik Elektronik Mühendisliği
+kaanuzumcu@bahcesehir.edu.tr/Kaan Üzümcü/Bilgisayar mühendisliği
+canaral.col@bahcesehir.edu.tr/Can Aral Çol/Mekatronik Mühendisliği
+alperen.sari@bahcesehir.edu.tr/Alperen Sari/Bilgisayar Mühendisliği
+sevval.yavuzer@bahcesehir.edu.tr/Şevval Yavuzer/BAU
+aligokmen.kudas@outlook.com/Ali Gökmen Kudaş/yazılım
+muhammed.yildiz4@bahcesehir.edu.tr/Muhammed Yıldız/Yapay Zeka Mühendisliği
+oguzhan.omer@bahcesehir.edu.tr/Oguzhan omer/Ai
+elif.ozan1@bahcesehir.edu.tr/Elif Ozan/Bilgisayar Mühendisliği
+sevval.okyay@bahcesehir.edu.tr/şevval okyay/Bilgisayar mühendisliği
+munzer.alsaray@bahcesehir.edu.tr/Münzer Alsaray/MEKATRONİKS Mühendisliği
+memduharda.tigli@bahcesehir.edu.tr/Memduh Arda Tığlı/öyleyim
+ali.trenova@bahcesehir.edu.tr/Ali Trenova/Mekatronik mühendisliği
+deniz.ozaydin@bahcesehir.edu.tr/Deniz Özaydın/BAU
+yigitalp.yaren@bahcesehir.edu.tr/yiğit alp yaren/yapay zeka muhendisliği
+samil.ozgur@bahcesehir.edu.tr/Şamil Özgür/Bilgisayar Mühendisliği
+yahyaasim.demir@bahcesehir.edu.tr/Yahya Asım Demir/Moleküler biyoloji ve genetik
+erkan.yamac@bahcesehir.edu.tr/Erkan Yamaç/Yapay Zeka Mühendisliği
+oguzhan.atik@bahcesehir.edu.tr/Oğuzhan Atik/Bilgisayar mühendisliği
+ibrahim.karatas@bahcesehir.edu.tr/İbrahim Eymen Karataş/Endüstri Mühendisliği
+efe.ersoy2@bahcesehir.edu.tr/Efe Ersoy/Uluslararası Finans
+fatihtugra.yanik@bahcesehir.edu.tr/Fatih Tuğra Yanık/Yapay Zeka Mühendisliği
+yagizkaan.cankaya@bahcesehir.edu.tr/Yağız Kaan Çankaya/endüstri
+omer.kibaroglu@bahcesehir.edu.tr/Ömer Kibaroğlu/Yapay zeka
+ridvan.kozan@bahcesehir.edu.tr/Rıdvan kozan/International trade
+azra.degri@bahcesehir.edu.tr/azra değri/bilgisayar mühendisliği
+ekinsila.yilmaz@bahcesehir.edu.tr/ekin sila yilmaz/oyleyim
+emre.sevinc1@bahcesehir.edu.tr/Emre Can Sevinç/Bilgisayar Mühendisliği
+ecem.yuzak@bahcesehir.edu.tr/Ecem Nisa Yüzak/Yapay zeka mühendisliği
+e.arpaci03@gmail.com/emir arpacı/işletme
+yunus.dedeler@bahcesehir.edu.tr/Yunus Emrecan Dedeler/Müzik Teknolojileri
+muhammed.alagoz@bahcesehir.edu.tr/Harun Alagöz/Yazılım mühendisliği
+tayyip.capuk@bahcesehir.edu.tr/Tayyip Çapuk/Bilgisayar Mühendisliği
+ahmetmete.ozdemir@bahcesehir.edu.tr/Ahmet Mete Özdemir/işleyme
+ilgin.satici@bahcesehir.edu.tr/Ilgin satici/Yapay zeka
+parastoo.khaleghi@bahcesehir.edu.tr/parastoo khaleghi/yapay zaka
+furkan.demircioglu@bahcesehir.edu.tr/Furkan Demircioğlu/Yapay zeka
+zeynepsude.eroglu@bahcesehir.edu.tr/Zeynep Sude Eroğlu/hukuk
+eren.sen1@bahcesehir.edu.tr/Eren Şen/yapay zeka mühendisliği
+nurumay.bozdogan@bahcesehir.edu.tr/Nur Umay Bozdoğan/Tıp
+yigit.yasar1@bahcesehir.edu.tr/Yiğit Yaşar/Yazılım Mühendisliği
+sami.babaoglu@bahcesehir.edu.tr/Sami Babaoğlu/Software
+yunusemre.davran@bahcesehir.edu.tr/Yunus Emre Davran/Yazılım Mühendisliği
+meylis.jumayev@bahcesehir.edu.tr/Meýlis Jumayev/Computer Engineering
+eylul.buksur@bahcesehir.edu.tr/Eylül Buksur/Endüstri mühendisliği
+ahmetmelih.kivanc@bahcesehir.edu.tr/Ahmet Melih Kıvanç/Bilgisayar Mühendisliği
+hatice.erdal@bahcesehir.edu.tr/Hatice Erdal/Değilim
+rozaderin.cetin@bahcesehir.edu.tr/Roza Derin Çetin/Eczacılık
+serra.bozkurt@bahcesehir.edu.tr/Serra BOZKURT/Tıp
+sudem.bayrak@bahcesehir.edu.tr/Sudem Bayrak/Yapay Zeka
+serraayas.dogan@bahcesehir.edu.tr/serra ayas doğan/işletme mühendisliği
+muhammedemir.oncul@bahcesehir.edu.tr/Emir öncül/Yapay zeka mühendisliği
+kaan.ipci@bahcesehir.edu.tr/Kaan İpçi/Bilgi güvenligi teknolojileri
+hayrettin.cengiz@bahcesehir.edu.tr/Hayrettin deniz cengiz/Bilgisayar mühendisliği
+yusufbera.karaman@bahcesehir.edu.tr/Yusuf Bera Karaman/Dijital oyun tasarımı
+poyraz.yildirim@bahcesehir.edu.tr/Poyraz Yıldırım/Uluslararası ticaret işletme
+alperen.ozbey@bahcesehir.edu.tr/Alperen Özbey/yapayzeka mühendisliği
+aliberkay.dagdeviren@bahcesehir.edu.tr/Ali Berkay Dağdeviren/Bilgisayar mühendisliği
+mustafayigit.kestek@bahcesehir.edu.tr/Mustafa yiğit kestek/Hukuk
+sila.alkaya@bahcesehir.edu.tr/sıla alkaya/ekonomi ve finans
+eladefne.gunay@bahcesehir.edu.tr/Ela Gunay/reklamcilik
+kemaldemir.simsir@bahcesehir.edu.tr/Kemal Demir Şimşir/Ai enginering
+cem.karan@bahcesehir.edu.tr/Cem Karan/Software Engineering
+miracyigit.tosyali@bahcesehir.edu.tr/Miraç Yiğit Tosyalı/Bilgisayar Mühendisliği
+denizyaldaz@bahcesehir.edu.tr/Deniz Yaldaz/BAU
+kilincarslan.turgut@bahcesehir.edu.tr/Kılınç Arslan TURĞUT/Yazılım Mühendisliği
+melina.saadet@bahcesehir.edu.tr/Melina saadet/Pharmacy
+yusuf.ipekci@bahcesehir.edu.tr/Yusuf ipekçi/Elektrik Elektronik
+burak.orhan@bahcesehir.edu.tr/Burak Orhan/Elektrik-Elektronik Mühendisliği
+yusufcagri.yilmaz@bahcesehir.edu.tr/Yusuf Çağrı Yılmaz/Yazılım mühendisliği
+mehmetcan.ekin@bahcesehir.edu.tr/Mehmet Can Ekin/Yazılım müh
+asya.calisir@bahcesehir.edu.tr/Asya Çalışır/Endüstriyel tasarım
+zeynepsude.yavuz@bahcesehir.edu.tr/Zeynep sude yavuz/Lojistik yönetimi
+aslinur.alkan@bahcesehir.edu.tr/Aslınur Alkan/BAU
+irmaksude.yorkurt@bahcesehir.edu.tr/Irmak Sude Yorkurt/Yapay zeka muhendisligi
+zeynephuda.yuksel@bahcesehir.edu.tr/Hüda yüksel/Software eng
+kubranur.gencer@bahcesehir.edu.tr/Kübra Gencer/Software
+sudenur.ezer@bahcesehir.edu.tr/sude nur ezer/moda tasarim
+elif.yoruk@bahcesehir.com/Elif Yörük/İşleteme
+ilayipek.altay@bahcesehir.edu.tr/İlay İpek Altay/hukuk
+sena.vardar@bahcesehir.edu.tr/Sena Vardar/İngilizce Mütercim ve Tercümanlık
+belinay.dinc@bahcesehir.edu.tr/Belinay Dinç/Bilgisayar Mühendisliği
+ahmetselim.ozer@bahcesehir.edu.tr/Ahmet Selim Özer/Elektrik elektronik mühendisliği
+medine.inaloz@bahcesehir.edu.tr/Medine İnalöz/Endüstri Mühendisliği
+mehmetefe.turgut@bahcesehir.edu.tr/Mehmet Efe Turgut/İnşaat Mühendisliği
+ahmet.tezcan@bahcesehir.edu.tr/Ahmet Mert Tezcan/Bilgisayar Mühendisliği
+gulsum.karakaya@bahcesehir.edu.tr/Gülsüm Karakaya/Reklamcılık
+latifefe.arslan@bahcesehir.edu.tr/Latif Efe Arslan/Mekatronik mühendisliği
+inci.aydin@bahcesehir.edu.tr/İnci Aydın/İc mimarlik ve çevre tasarımı
+emre.sahin4@bahcesehir.edu.tr/emre şahin/mekatronik mühendisliği
+sudenur.tanir@bahcesehir.edu.tr/Sude Nur Tanır/Fizyoterapi ve rehabilitasyon
+setayesh.davarzani@bahcesehir.edu.tr/setayesh davarzani/Yapay zeka
+kerem.kizilkale@bahcesehir.edu.tr/Kerem Kızılkale/Bilgisayar Mühendisliği
+ipeklal.aydin@bahcesehir.edu.tr/İpek Lal Aydın/BAU
+irmak.unal@bahcesehir.edu.tr/Irmak Ünal/Yazılım
+eren.hansu@bahcesehir.edu.tr/Eren Hansu/Film TV
+mohamed.alhasan@bahcesehir.edu.tr/Mohamed elhasan/Ai
+zeynep.dag1@bahcesehir.edu.tr/Zeynep Dağ/Yazılım Mühendisliği
+arda.tufekci@bahcesehir.edu.tr/Arda Tüfekçi/BAU
+yunuskadir.kaya@bahcesehir.edu.tr/Yunus Kadir Kaya/bilgi güvenliği teknolojisi
+beyza.bolukbasi@bahcesehir.edu.tr/Beyza Bölükbaşı/Bilgisayar mühendisliği
+ayse.simsek2@bahcesehir.edu.tr/Ayşe Şimşek/yazılım mühendisliği
+aziz.ozan@bahcesehir.edu.tr/Aziz Ozan/Yazılım mühendisliği
+mihriban.keskin@bahcesehir.edu.tr/Mihriban Keskin/Bilgi Güvenliği Teknolojisi
+diyarserhat.peker@bahcesehir.edu.tr/Diyar Serhat PEKER/Aı engineering
+emrullah.polat1@bahcesehir.edu.tr/Emrullah polat/Bilgisayar mühendisliği
+ozguldeniz.olgen@bahcesehir.edu.tr/Özgül Deniz Ölgen/Animasyon
+huda.almolayki@bahcesehir.edu.tr/Hüda Almolayki/Moleküler biyoloji ve genetik
+melek.ergun@bahcesehir.edu.tr/Melek Ergün/Çizgifilm ve Animasyon
+meleksera.kaya@bahcesehir.edu.tr/Melek Sera Kaya/Eczacılık
+ekin.akdeniz@bahcesehir.edu.tr/Ekin Akdeniz/Yapay zeka mühendisliği
+abdullah.yildirim2@bahcesehir.edu.tr/Abdullah Oğuz Yıldırım/Yazılım mühendisliği
+mehmeteren.devrez@bahcehir.edu.tr/Mehmet eren devrez/BAU
+fatma.bakirci@bahcesehir.edu.tr/Fatma Hazal Bakırcı/Yzm
+havvanisa.karakas@bahcesehir.edu.tr/Havva Nisa Karakaş/İşletme
+demir.keskiner@bahcesehir.edu.tr/DEMİR KESKİNER/Moleküler biyoloji ve genetik
+rasa.enayati@bahcesehir.edu.tr/Rasa Enayati/Diş hekimligi
+dilem.aytas@bahcesehir.edu.tr/Dilem Aytaş/Yazılım Mühendisliği
+nisa.gunebakan@bahcesehir.edu.tr/Nisa günebakan/İşletme mühendisliği
+alifuat.gungunes@bahcesehir.edu.tr/Ali Fuat Güngüneş/Bilgisayar Mühendisliği
+eminkaan.kinay@bahcesehir.edu.tr/Emin Kaan Kınay/Elektrik Elektronik mühendisliği
+alperenbasar.zere@bahcesehir.edu.tr/Alperen Başar Zere/Dijital oyun tasarımı
+ediz.sabuncu@bahcesehir.edu.tr/Ediz Sabuncu/Bilgisayar Mühendisliği
+ysmayylberdi.gurbano@bahcesehir.edu.tr/Ysmayylberdi Gurbanov/Bilgisayar mühendisligi
+muhammed.kan1@bahcesehir.edu.tr/Muhammed kan/Hukuk
+omerfaruk.demir4@bahcesehir.edu.tr/Ömer Faruk Demir/Uluslararası Finans
+cagandeniz.cinarlik@bahcesehir.edu.tr/Çağan Deniz Çınarlık/Bilgisayar Mühendisliği
+nehir.oruc@bahcesehir.edu.tr/nehir oruc/yapay zeka muhendisligi
+ege.ercel@bahcesehir.edu.tr/Ege Erçel/Reklamcılık
+ebrar.sengulen@bahcesehir.edu.tr/Ebrar Şengülen/dijital Oyun Tasarım
+ela.cam@bahcesehir.edu.tr/ela cam/ekonomi
+duru.duman@bahcesehir.edu.tr/Duru/Psikoloji
+sude.maral@bahcesehir.edu.tr/sude maral/eczacilik
+malek.elbeshti@bahcesehir.edu.tr/Malek Elbeshti/Software engineering
+irem.caresiz@bahcesehir.edu.tr/irem çaresiz/bilgi güvenliği teknolojisi
+eftelya.aslan@bahcesehir.edu.tr/eftelya aslan/sahne sanatları
+berika.dikici@bahcesehir.edu.tr/berika dikici/ai
+tezcanemirtt@gmail.com/Tezcan emir türemen/Orta okul öğrencisiyim
+polat.kara@bahcesehir.edu.tr/Polat Kenan Kara/BAU
+emre.kurdoglu@bahcesehir.edu.tr/Emre Kurdoğlu/Bilgisayar Mühendisliği
+brcnsagaltici@gmail.com/Bircan sağaltıcı/Elektrik ve elektronik
+makka.khusainova@bahcesehir.edu.tr/Makka hüseyin/Architecture
+arifhilmi.peltek@bahcesehir.edu.tr/arif hilmi peltek/İşletme mühendisliği
+abdullahali.kaya@bahcesehir.edu.tr/Abdullah ali kaya/Fizyoterapi ve rehabilitasyon
+nupeldazin.tunc@bahcesehir.edu.tr/nupelda zin tunç/elektrik elektronik mühendisliği
+muhammet.akdeniz@bahcesehir.edu.tr/Muhammet Fatih Akdeniz/Lojistik yönetimi
+ahmetefe.gocmen@bahcesehir.edu.tr/Ahmet Efe Göçmen/Hukuk
+ozer.akgoz@bahcesehir.edu.tr/Özer Akgöz/Bilgi Güvenliği Teknolojisi
+rabiaece.yavuz@bahcesehir.edu.tr/Rabia Ece Yavuz/Mekatronik mühendisliği
+hacibatuhan.cakin@bahcesehir.edu.tr/Batuhan Çakın/AI engineers
+selimhan.gorgulu@bahcesehir.edu.tr/Selimhan Görgülü/Aie
+irem.mersin@bahcesehir.edu.tr/İrem Mersin/BAU
+mehmetmert.uysal@bahcesehir.edu.tr/Mert uysal/Yapay zeka mühendisliği
+zeynepisil.ergul@bahcesehir.edu.tr/Zeynep Işıl Ergül/İşletme mühendisliği
+ceyda.tunar@bahcesehir.edu.tr/ceyda tunar/yapay zeka
+osman.kasimoglu@bahcesehir.edu.tr/Osman/Mekatronik mühendisliği
+aynur.albayrak@bahcesehir.edu.tr/Aynur Albayrak/İşletme
+mercanyaren.turemen@bahcesehir.edu.tr/Mercan yaren türemen/Sosyoloji
+furkanenes.davarciog@bahcesehir.edu.tr/Furkan Enes davarcıoğlu/Managment engineering
+aysenur.vardar@bahcesehir.edu.tr/Ayşenur Vardar/Yazılım mühendisliği
+emirali.oduncu@bahcesehir.edu.tr/Emir Ali Oduncu/Dijital oyun tasarımı
+sevval.bozkurt@bahcesehir.edu.tr/Şevval Bozkurt/Endüstri mühendisliği
+melih.corekci@bahcesehir.edu.tr/melih çörekçi/çizgi film animasyon
+betul.alci@bahcesehir.edu.tr/Betül Alcı/İşletme mühendisliği
+mustafatarik.ozkan@bahcesehir.edu.tr/Mustafa Tarık Özkan/Bilgisayar Mühendis
+havin.gulbeden@bahcesehir.edu.tr/Havin Gülbeden/Yazılım mühendisliği
+gulseceylin.bulbul@bahcesehir.edu.tr/Gülse Ceylin Bülbül/Bilgisayar mühendisliği
+burak.erdogan2@bahcesehir.edu.tr/Burak Erdoğan/Bilgisayar Mühendisliği
+rabia.ipek@bahcesehir.edu.tr/Rabia İpek/Siyaset bilimi ve uluslararası ilişkiler
+mert.bodur@bahcesehir.edu.tr/Mert Bodur/CMPE
+cemkayra.arabaci@bahcesehir.edu.tr/Cem Kayra Arabacı/AI
+yagmur.ozdemir1@bahcesehir.edu.tr/Yağmur Özdemir/Bilgisayar mühendisliği
+mehmetkemal.alin@bahcesehir.edu.tr/Mehmet Kemal Alin/İşletme
+utku.puyan@bahcesehir.edu.tr/Utku Puyan/Bilgisyaar Muh
+muhammet.sacinti@bahcesehir.edu.tr/Muhammet Emin Saçıntı/yapay zeka
+alina.gacemi1@bahcesehir.edu.tr/Alina gacemi/BAU
+amirabelkis.ghandir@bahcesehir.edu.tr/AMIRA BELKIS GHANDIR/AI
+orhan.canbolat@bahcesehir.edu.tr/Orhan Canbolat/Mekatronik Mühendisliği
+gulchin.sharifova@bahcesehir.edu.tr/Gulchin Sharifova/Computer engineering
+zehra.cetintas@bahcesehir.edu.tr/Zehra Çetintaş/Eee& cmp
+asma.said@bahcesehir.edu.tr/Asma Said/Yazilim muhendisligi
+ayla.bilici@bahcesehir.edu.tr/Ayla Bilici/Bilgisayar Mühendisliği
+goksu.fidanboy@bahcesehir.edu.tr/Göksu Fidanboy/bilgisayar mühendisliği
+ovlyaguly.berdiyev@bahcesehir.edu.tr/Ovlyaguly/Software Engineering
+beratmert.kayacan@bahcesehir.edu.tr/berat mert kayacan/yapay zeka mühendisliği öğrencisiyim
+selin.yilmaz3@bahcesehir.edu.tr/selin yılmaz/biyomedikal mühendisliği
+halukyildiz@bahcesehir.edu.tr/Haluk yildiz/Lojistik yönetimi
+betul.goksu@bahcesehir.edu.tr/Betül Göksu/Bilgisayar Mühendisliği
+inji.suleymanli@bahcesehir.edu.tr/İnci Süleymanlı/Computer Engineering
+metinyagiz.bakis@bahcesehir.edu.tr/Metin Yağız Bakiş/BAU
+yucel.pehlevan@bahcesehir.edu.tr/Yücel Pehlevan/Bilgisayar Mühendisliği
+reyyan.tarhan@bahcesehir.edu.tr/Reyyan Tarhan/Mekatronik Mühendisliği
+yilmazefe.bardakcio1@bahcesehir.edu.tr/Yılmazefe Bardakçıoğlu/Bilgisayar Mühendisliği
+nurgul.guldur@bahcesehir.edu.tr/Nurgül Güldür/Enerji sistemleri mühendisliği
+iclal.kara@bahcesehir.edu.tr/İclal Kara/Enerji sistemleri mühendisliği
+esila.gurcegiz@bahcesehir.edu.tr/Esila Gürceğiz/Yeni Medya
+umut.koc3@bahcesehir.edu.tr/Umut Koç/Bilgisayar mühendisliği
+yigitmecit.bilgici@bahcesehir.edu.tr/Yiğit Bilgici/Cmpe
+kheira.bouloussa@bahcesehir.edu.tr/Kheira Bouloussa/Ai
+ayberkcem.cevik@bahcesehir.edu.tr/Ayberk Cem Çevik/Bilgisayar mühendisliği
+aziz.kunter@bahcesehir.edu.tr/Aziz Kaan Kunter/Yazılım Mühendisliği
+mert.delibalta@bahcesehir.edu.tr/Mert Delibalta/Isletme
+rozita.merrikhi@bahcesehir.edu.tr/Rozita Merrikhi/Software Engineering
+eylul.babaoglu@bahcesehir.edu.tr/Eylül Babaoğlu/Beslenme ve diyetetik
+emir.sarac@bahcesehir.edu.tr/Emir Mert Saraç/Yapay Zeka Mühendisliği
+mirze.adiyaman@bahcesehir.edu.tr/Mirze mirsat adiyaman/Ekonomi ve isletme muhendisligi
+nazlinur.gul@bahcesehir.edu.tr/Nazlı Nur Gül/Bilgisayar Mühendisliği
+dilara.uyar@bahcesehir.edu.tr/dilara uyar/Bilgisayar mühendisligi
+batuhan.kiskac@bahcesehir.edu.tr/Batuhan Kıskaç/Bilgisayar Mühendisliği
+cihankerem.kahveci@bahcesehir.edu.tr/Cihan Kerem Kahveci/Bilgisayar mühendisliği
+ela.akin@bahcesehir.edu.tr/Ela akın/Moleküler biyoloji ve genetik mühendisliği
+ardahan.kilic@bahcesehir.edu.tr/Ardahan Kılıç/AIE
+deniznisa.ozen@bahcesehir.edu.tr/Deniz Nisa Özen/Bilgisayar Mühendisi
+onat.ozeren@bahcesehir.edu.tr/Onat Özeren/Ekonomi
+zehra.yetkin@bahcesehir.edu.tr/Zehra Yetkin/Bilgisayar mühendisliği
+zeynep.kizilkaya@bahcesehir.edu.tr/Zeynep kizilkaya/Yazılım mühendisliği
+eren.ates1@bahcesehir.edu.tr/Eren Yiğit Ateş/Bilgisayar mühendisliği
+nazli.ozturk@bahcesehir.edu.tr/Nazlı Öztürk/AI
+emre.yildirim5@bahcesehir.edu.tr/Emre Yıldırım/öyleyim
+muhammedoguz.tokur@bahcesehir.edu.tr/Oğuz Tokur/ai eng
+emre.unver@bahcesehir.edu.tr/Emre Ünver/Ai
+ather.aidaros@bahcesehir.edu.tr/Ather Aidaros/BAU
+yusuf.korkmaz1@bahcesehir.edu.tr/Yusuf KORKMAZ/Software Engineering
+mohamad.abdulrahman@bahcesehir.edu.tr/Mohamad abdulrahman/Mechatronics
+yavuzselim.vurgun@bahcesehir.edu.tr/Yavuz Selim Vurgun/BAU
+dursunali.akturan@bahcesehir.edu.tr/Dursun Ali Akturan/Bilgisayar Mühendisliği
+gonulbeyza.akbas@bahcesehir.edu.tr/Gönül Beyza Akbaş/Yapay Zeka öğrencisiyim.
+emre.bilgin1@bahcesehir.edu.tr/Emre Bilgin/Beslenme ve Diyetetik (İngilizce)
+emre.hocaogullari@bahcesehir.edu.tr/Emre Yıldırım/Bilgisayar mühendisliği
+duru.pilaz@bahcesehir.edu.tr/Khalil sabieddine/Mekatronik müh
+alpemrekaraahmet@bahcesehir.edu.tr/Oğuz Tokur/BAU
+talar.kafrosh@bahcesehir.edu.tr/Emre Ünver/Ai
+tolga.uslu@bahcesehir.edu.tr/Ather Aidaros/bilgisayar mühendisliği
+taha.cimen@bahcesehir.edu.tr/Yusuf KORKMAZ/Yazılım
+barkin.sonmez@bahcesehir.edu.tr/Mohamad abdulrahman/Elektrik-Elektronik Mühendisliği
+ecenur.palabiyik@bahcesehir.edu.tr/Yavuz Selim Vurgun/Mekatronik Mühendisliği
+aysenur.aysu@bahcesehir.edu.tr/Dursun Ali Akturan/Mekatronik Mühendisliği
+aria.sokhangoo@bahcesehir.edu.tr/Gönül Beyza Akbaş/Ai engineering
+ugurmete.salter@bahcesehir.edu.tr/Uğur Mete Salter/BAU
+batuhan.tiryaki@bahcesehir.edu.tr/Batuhan Tiryaki/Elektrik Elektronik Mühendisliği
+oktay.mutaf@bahcesehir.edu.te/Oktay mutaf/Bilgisayar mühendisliği
+irem.cetin1@bahcesehir.edu.tr/İrem Çetin/Yazılım Mühendisliği
+zeynepgokce.alper@bahcesehir.edu.tr/Zeynep Gökçe Alper/Endüstri Mühendisliği

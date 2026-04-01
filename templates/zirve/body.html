@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f9;
+        }
+
+        .wrapper {
+            max-width: 620px;
+            margin: 32px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            padding: 40px 32px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            color: #ffffff;
+            margin: 0 0 8px 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .hero p {
+            color: #a0c4ff;
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 6px 18px;
+            font-size: 13px;
+            margin-top: 16px;
+        }
+
+        .content {
+            padding: 36px 32px;
+        }
+
+        .greeting {
+            font-size: 17px;
+            color: #1a1a1a;
+            margin-bottom: 16px;
+        }
+
+        .section {
+            margin-bottom: 28px;
+        }
+
+        .info-box {
+            background: #f0f7ff;
+            border-left: 4px solid #2563eb;
+            border-radius: 6px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+
+        .info-row {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: #1a1a1a;
+        }
+
+        .info-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-label {
+            font-weight: 600;
+            min-width: 80px;
+            color: #374151;
+        }
+
+        .info-value {
+            color: #111827;
+        }
+
+        .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #0f3460;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 14px;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 8px;
+        }
+
+        ul.features {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.features li {
+            padding: 8px 0 8px 28px;
+            position: relative;
+            color: #374151;
+            font-size: 15px;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        ul.features li:last-child {
+            border-bottom: none;
+        }
+
+        ul.features li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-size: 12px;
+            top: 10px;
+        }
+
+        .todo-box {
+            background: #f0fdf4;
+            border-radius: 8px;
+            padding: 20px 24px;
+            margin-bottom: 28px;
+        }
+
+        .todo-row {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 8px;
+            font-size: 15px;
+            color: #166534;
+        }
+
+        .todo-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .todo-icon {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+
+        .closing {
+            color: #4b5563;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .cta-area {
+            text-align: center;
+            margin: 28px 0;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #2563eb, #1d4ed8);
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 36px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 15px;
+            letter-spacing: 0.3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Hero -->
+        <div class="hero">
+            <h1>AI Revolution 360 İstanbul 2026</h1>
+            <p>Bahçeşehir Üniversitesi Artificial Intelligence Society</p>
+            <span class="badge">🎟 Kaydın Onaylandı!</span>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <p class="greeting">Merhaba <strong>{{ name }}</strong>,</p>
+
+            <div class="section">
+                <p>Zirvemize kayıt olduğun için çok teşekkür ederiz! 🎉 AIS olarak seni bu özel etkinlikte ağırlamaktan
+                    büyük mutluluk duyacağız.</p>
+            </div>
+
+            <!-- Etkinlik Bilgileri -->
+            <div class="info-box">
+                <div class="section-title">📅 Etkinlik Bilgileri</div>
+                <div class="info-row">
+                    <span class="info-label">Tarih</span>
+                    <span class="info-value">2-3 Nisan 2026</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Konum</span>
+                    <span class="info-value">Bahçeşehir Üniversitesi Güney Kampüs, İstanbul</span>
+                </div>
+            </div>
+
+            <!-- Program -->
+            <div class="section">
+                <div class="section-title">🚀 Seni Neler Bekliyor?</div>
+                <ul class="features">
+                    <li>Yapay zeka alanında uzman konuşmacıların konuşmaları</li>
+                    <li>Sektör profesyonelleriyle networking fırsatları</li>
+                    <li>Uygulamalı AI workshop'ları ve canlı demo alanları</li>
+                    <li>Şirket stantları ve kariyer fırsatları</li>
+                </ul>
+            </div>
+
+            <!-- Yapman Gerekenler -->
+            <div class="todo-box">
+                <div class="section-title" style="color: #166534; border-color: #bbf7d0;">✅ Yapman Gerekenler</div>
+                <div class="todo-row"><span class="todo-icon">📧</span> Bu maili sakla — giriş için gerekebilir</div>
+                <div class="todo-row"><span class="todo-icon">📱</span> AIS sosyal medya hesaplarını takip et (güncel
+                    duyurular için)</div>
+                <div class="todo-row"><span class="todo-icon">🪪</span> Etkinlik günü öğrenci kimliğini yanında bulundur
+                </div>
+            </div>
+
+            <p class="closing">Herhangi bir sorun veya sorunuz olursa bu maile yanıt verebilirsiniz. Etkinlikte görüşmek
+                üzere! 🚀</p>
+            <p class="closing" style="margin-top: 20px;">Saygılarımızla,</p>
+        </div>
+    </div>
+</body>
+
+</html>

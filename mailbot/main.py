@@ -11,6 +11,8 @@ from pathlib import Path
 from .config import (
     ROOT_DIR,
     get_attachments,
+    get_campaign_attachments,
+    get_campaigns,
     get_paths,
     get_send_at,
     get_send_delay,
@@ -166,32 +168,74 @@ def cmd_send(
     dry_run: bool = False,
     delay: int | None = None,
     retry_failed: bool = False,
+    campaign: str | None = None,
+    test_email: str | None = None,
+    tek_alici: str | None = None,
 ) -> None:
     """Her alıcıya mail gönder."""
-    paths = get_paths()
+    try:
+        paths = get_paths(campaign)
+    except ValueError as e:
+        print(error(f"  ✗ {e}"), file=sys.stderr)
+        sys.exit(1)
     smtp_config = get_smtp_config()
 
-    # Alıcı kaynağı: --retry-failed ise failed.txt, değilse alicilar.txt
-    recipient_path = paths["alicilar"].parent / "failed.txt" if retry_failed else paths["alicilar"]
-    if retry_failed and not recipient_path.exists():
-        print(error("  ✗ failed.txt bulunamadı. Önce başarısız gönderim olmalı."), file=sys.stderr)
-        sys.exit(1)
+    # Kampanya bilgisi
+    if campaign:
+        print(dim(f"  📦 Kampanya: {campaign}"))
 
-    # Alıcıları yükle ve format kontrolü (banner'dan önce, hızlı hata)
-    try:
-        recipients = load_recipients(recipient_path)
-    except ValidationError as e:
-        print(error(f"  ✗ {e.message}"), file=sys.stderr)
-        if e.details:
-            print(dim(f"    {e.details}"), file=sys.stderr)
-        sys.exit(1)
+    # Test modu: --test-email verilmişse tek alıcı oluştur (isim: Test Kullanıcı)
+    if test_email:
+        test_email = test_email.strip()
+        if not is_valid_email(test_email):
+            print(error(f"  ✗ Geçersiz test e-posta adresi: {test_email}"), file=sys.stderr)
+            sys.exit(1)
+        from .models import Recipient as _Recipient
+        recipients = [_Recipient(email=test_email, name="Test Kullanıcı", company="TEST")]
+        print(warn(f"  🧪 TEST MODU — Yalnızca {test_email} adresine gönderilecek."))
+        print(dim(f"     Gerçek liste ({paths['alicilar'].name}) kullanılmıyor."))
 
-    if not recipients:
-        src_name = "failed.txt" if retry_failed else "alicilar.txt"
-        print(warn(f"  ⚠ {src_name} içinde geçerli alıcı yok."), file=sys.stderr)
-        sys.exit(1)
+    # Tek alıcı modu: --tek-alici EMAIL → listede ara, gerçek adıyla gönder
+    elif tek_alici:
+        tek_alici = tek_alici.strip().lower()
+        if not is_valid_email(tek_alici):
+            print(error(f"  ✗ Geçersiz e-posta adresi: {tek_alici}"), file=sys.stderr)
+            sys.exit(1)
+        try:
+            all_recipients = load_recipients(paths["alicilar"])
+        except ValidationError as e:
+            print(error(f"  ✗ {e.message}"), file=sys.stderr)
+            sys.exit(1)
+        match = next((r for r in all_recipients if r.email.lower() == tek_alici), None)
+        if not match:
+            print(error(f"  ✗ Listede bulunamadı: {tek_alici}"), file=sys.stderr)
+            print(dim(f"    Kontrol et: {paths['alicilar'].name}"), file=sys.stderr)
+            sys.exit(1)
+        recipients = [match]
+        print(success(f"  📧 Tek alıcı modu: {match.name} ‹{match.email}›"))
 
-    invalid = [r for r in recipients if not is_valid_email(r.email)]
+    else:
+        # Alıcı kaynağı: --retry-failed ise failed.txt, değilse kampanya/alıcı dosyası
+        recipient_path = paths["alicilar"].parent / "failed.txt" if retry_failed else paths["alicilar"]
+        if retry_failed and not recipient_path.exists():
+            print(error("  ✗ failed.txt bulunamadı. Önce başarısız gönderim olmalı."), file=sys.stderr)
+            sys.exit(1)
+
+        # Alıcıları yükle ve format kontrolü (banner'dan önce, hızlı hata)
+        try:
+            recipients = load_recipients(recipient_path)
+        except ValidationError as e:
+            print(error(f"  ✗ {e.message}"), file=sys.stderr)
+            if e.details:
+                print(dim(f"    {e.details}"), file=sys.stderr)
+            sys.exit(1)
+
+        if not recipients:
+            src_name = "failed.txt" if retry_failed else paths["alicilar"].name
+            print(warn(f"  ⚠ {src_name} içinde geçerli alıcı yok."), file=sys.stderr)
+            sys.exit(1)
+
+    invalid = [] if (test_email or tek_alici) else [r for r in recipients if not is_valid_email(r.email)]
     if invalid:
         print(error("  ✗ Geçersiz e-posta formatı bulundu:"), file=sys.stderr)
         for r in invalid:
@@ -220,16 +264,27 @@ def cmd_send(
         print(error("  ✗ templates/subject.txt ve templates/body.txt bulunmalı."), file=sys.stderr)
         sys.exit(1)
 
-    # Ek dosyalar: --attach > .env ATTACHMENTS > interaktif prompt (dry-run'da atla)
+    # Ek dosyalar öncelik sırası:
+    #   1. --attach argümanı
+    #   2. Kampanya seçeneği ([] = kesinlikle ek yok, None = devam et)
+    #   3. .env ATTACHMENTS
+    #   4. İnteraktif prompt (dry-run'da atla)
     attachment_paths: list[str] = []
     if attach:
         attachment_paths = [str(p) for p in resolve_attachments(attach)]
-    elif get_attachments():
-        attachment_paths = [str(p) for p in resolve_attachments(get_attachments())]
-    elif interactive and sys.stdin.isatty() and not dry_run:
-        chosen = prompt_attachments()
-        if chosen:
-            attachment_paths = [str(p) for p in resolve_attachments(chosen)]
+    else:
+        campaign_attach = get_campaign_attachments(campaign)
+        if campaign_attach is not None:
+            # Kampanya için ek tanımlı: boş = ek yok, dolu = bu dosyaları kullan
+            if campaign_attach:
+                attachment_paths = [str(p) for p in resolve_attachments(campaign_attach)]
+            # else: boş liste → ek gönderme (attachment_paths = [])
+        elif get_attachments():
+            attachment_paths = [str(p) for p in resolve_attachments(get_attachments())]
+        elif interactive and sys.stdin.isatty() and not dry_run:
+            chosen = prompt_attachments()
+            if chosen:
+                attachment_paths = [str(p) for p in resolve_attachments(chosen)]
 
     # Eksik dosya ve boyut kontrolü
     for ap in attachment_paths:
@@ -513,6 +568,22 @@ def _main() -> None:
         help="Her mail arası bekleme (Gmail sınırları için örn: 2-3)",
     )
     send_parser.add_argument(
+        "--kampanya",
+        metavar="ADI",
+        help=f"Kampanya seç (mevcut: {', '.join(get_campaigns())}). Örn: --kampanya zirve",
+    )
+    send_parser.add_argument(
+        "--test-email",
+        metavar="EMAIL",
+        help="Test modu: yalnızca bu adrese gönder, gerçek listeye dokunma. Örn: --test-email sen@gmail.com",
+    )
+    send_parser.add_argument(
+        "--tek-alici",
+        metavar="EMAIL",
+        dest="tek_alici",
+        help="Listeden tek kişiye gönder (gerçek adıyla). Örn: --tek-alici ali@bau.edu.tr",
+    )
+    send_parser.add_argument(
         "--retry-failed",
         action="store_true",
         help="failed.txt içindeki alıcılara tekrar gönder",
@@ -532,6 +603,9 @@ def _main() -> None:
             dry_run=args.dry_run,
             delay=args.delay,
             retry_failed=getattr(args, "retry_failed", False),
+            campaign=getattr(args, "kampanya", None),
+            test_email=getattr(args, "test_email", None),
+            tek_alici=getattr(args, "tek_alici", None),
             )
         except (ValidationError, ConfigError):
             raise

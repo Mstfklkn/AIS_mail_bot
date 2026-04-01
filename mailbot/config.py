@@ -170,8 +170,58 @@ def get_send_at() -> str | None:
     return os.getenv("SEND_AT") or None
 
 
-def get_paths() -> dict:
-    """Dosya yollarını döndür."""
+# Yerleşik kampanya tanımları
+# Her kampanya: alicilar dosyası ve templates alt dizini
+_CAMPAIGNS: dict[str, dict] = {
+    "zirve": {
+        "alicilar": ROOT_DIR / "zirve_katilimcilari.txt",
+        "templates_dir": ROOT_DIR / "templates" / "zirve",
+        "attachments": [],   # Boş liste = ek dosya gönderme (env'deki ATTACHMENTS yok sayılır)
+    },
+}
+
+
+def get_campaigns() -> list[str]:
+    """Tanımlı kampanya isimlerini döndür."""
+    return list(_CAMPAIGNS.keys())
+
+
+def get_campaign_attachments(campaign: str | None) -> list[str] | None:
+    """
+    Kampanya için ek dosya listesini döndür.
+    None  = kampanya tanımsız → env'den oku
+    []    = ek dosya gönderme
+    [...]  = bu listeyi kullan
+    """
+    if not campaign:
+        return None
+    cfg = _CAMPAIGNS.get(campaign.strip().lower(), {})
+    return cfg.get("attachments")  # anahtar yoksa None döner
+
+
+def get_paths(campaign: str | None = None) -> dict:
+    """Dosya yollarını döndür. campaign verilirse ilgili kampanya yolları kullanılır."""
+    if campaign:
+        campaign = campaign.strip().lower()
+        if campaign not in _CAMPAIGNS:
+            available = ", ".join(_CAMPAIGNS.keys())
+            raise ValueError(
+                f"Bilinmeyen kampanya: '{campaign}'. Mevcut kampanyalar: {available}\n"
+                f"Yeni kampanya için mailbot/config.py dosyasındaki _CAMPAIGNS sözlüğüne ekleyin."
+            )
+        cfg = _CAMPAIGNS[campaign]
+        templates_dir = cfg["templates_dir"]
+        return {
+            "alicilar": cfg["alicilar"],
+            "templates": templates_dir,
+            "subject": templates_dir / "subject.txt",
+            "body_txt": templates_dir / "body.txt",
+            "body_html": templates_dir / "body.html",
+            "signature_txt": templates_dir / "signature.txt",
+            "signature_html": templates_dir / "signature.html",
+        }
+
+    # Varsayılan (sponsorluk) yolları
     return {
         "alicilar": ROOT_DIR / "alicilar.txt",
         "templates": ROOT_DIR / "templates",
